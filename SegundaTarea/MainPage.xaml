@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SegundaTarea.MainPage"
+             BackgroundColor="#1A2F8A"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout>
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="20, 20, 20, 20"
+               CornerRadius="20"
+               HasShadow="False"
+               BackgroundColor="#6DAFB2">
+            <StackLayout VerticalOptions="Center"
+                         Spacing="20">
+                <Image Source="LOGO.png" />
+                <Frame Margin="10, 10, 10, 70"
+                       CornerRadius="20"
+                       HasShadow="False"
+                       BackgroundColor="#1A2F8A">
+                    <Label Text="Hola bienvenido al portal del Restaurante el MIL SABORES, contamos con un servicio especializado para complacer tu paldar"
+                           FontSize="20"
+                           HorizontalOptions="Center"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           TextColor="white"/>
+                </Frame>
+                <Button Text="BIENVENIDO"
+                        Background="#470E9E"
+                        TextColor="white"
+                        FontSize="25"
+                        FontAttributes="Bold"
+                        TextTransform="None"
+                        CornerRadius="20" 
+                        x:Name="iniciar"
+                        Clicked="iniciar_Clicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>

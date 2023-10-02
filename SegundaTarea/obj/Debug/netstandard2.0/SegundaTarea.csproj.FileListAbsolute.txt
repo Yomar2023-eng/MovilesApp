@@ -1,0 +1,16 @@
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\bin\Debug\netstandard2.0\SegundaTarea.deps.json
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\bin\Debug\netstandard2.0\SegundaTarea.dll
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\bin\Debug\netstandard2.0\ref\SegundaTarea.dll
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\bin\Debug\netstandard2.0\SegundaTarea.pdb
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\SegundaTarea.csproj.AssemblyReference.cache
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\SegundaTarea.GeneratedMSBuildEditorConfig.editorconfig
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\SegundaTarea.AssemblyInfoInputs.cache
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\SegundaTarea.AssemblyInfo.cs
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\SegundaTarea.csproj.CoreCompileInputs.cache
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\XamlC.stamp
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\SegundaTarea.dll
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\refint\SegundaTarea.dll
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\SegundaTarea.pdb
+E:\_APLICACIONESMOBILES\SegundaTarea\SegundaTarea\obj\Debug\netstandard2.0\Pincipal.xaml.g.cs

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SegundaTarea.Pincipal"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#1A2F8A">
+    <StackLayout>
+        <StackLayout>
+            <Frame BackgroundColor="#22A113"
+                   WidthRequest="50"
+                   HeightRequest="59">
+                <Label Text="CARTA DE MIL SABORES" TextColor="White"
+                       FontAttributes="Bold" FontSize="24" HorizontalOptions="Center"></Label>
+               
+            </Frame>
+            
+        </StackLayout>
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="20, 20, 20, 20"
+               CornerRadius="20"
+               HasShadow="False"
+               BackgroundColor="#6DAFB2">
+            <ListView ItemsSource="{Binding listados}"
+                      HasUnevenRows="True"
+                      ItemSelected="ListView_ItemSelected"
+                      ItemTapped="ListView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height=".5*" />
+                                    <RowDefinition Height=".5*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width=".3*" />
+                                    <ColumnDefinition Width=".7*" />
+                                </Grid.ColumnDefinitions>
+                                
+                                       
+                                    <Image Grid.RowSpan="2"
+                                           Source="{Binding url}"
+                                          />
+                              
+                                <Label Grid.Column="1"
+                                       Text="{Binding Nombre}"
+                                       FontAttributes="Bold" />
+                                <Label Grid.Column="2"
+                                       Text="{Binding Precio}"
+                                       FontAttributes="Bold"
+                                       HorizontalTextAlignment="Center"
+                                       VerticalTextAlignment="Center"/>
+                                <Label Grid.Row="1"
+                                       Grid.Column="1"
+                                       Text="{Binding Categoria}"
+                                       VerticalOptions="End" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Frame>
+    </StackLayout>
+</ContentPage>
